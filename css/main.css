@@ -1,63 +1,143 @@
 html {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 255, 255, 0.433);
+    background-color: #9fd5ce;
 }
 
 body {
     margin-left: 200px;
     margin-right: 200px;
-    padding: 0%;
-    background-color: aliceblue;
+    background-color: #ceeae7;
 }
 
 header {
+    margin-top: 0%;
     text-align: center;
 }
 
 h1 {
     font-size: 4.5rem;
+    font-weight: lighter;
     color: aliceblue;
 }
 
 h2 {
     font-size: 2rem;
     line-height: 5px;
+    font-weight: lighter;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 0%;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    line-height: 0%;
+}
+
+
 article {
-    margin: 20px;
+    margin: auto;
     line-height: 1.5rem;
 }
 
 nav {
-    margin-top: 10px;
-    word-spacing: 230px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-a {
-    color: rgb(149, 52, 223);
-    border-color: rgb(240, 222, 254);
+.navlinks {
+    display: inline-block;
 }
+
 
 a:link {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    padding: 10px;
     font-size: 1.5rem;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+
 }
+
+#box1,
+#box2 {
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+
 
 form {
-    margin: 20px;
+    margin: auto;
     line-height: 1.5rem;
+}
+
+
+footer {
+    padding: 15px;
+    text-align: right;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 1.05rem;
+    line-height: 40px;
+}
+
+fieldset {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+input[type=submit] {
+    background-color: #ceeae7;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 0.6rem;
+    text-transform: uppercase;
 
 }
 
-footer {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: right;
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+.container img {
+    width: 180px;
+    margin: 10px;
+    float: left;
 }
 
 .header {
