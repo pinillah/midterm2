@@ -45,6 +45,8 @@ article {
     line-height: 1.5rem;
 }
 
+/* Navigation Bar Elements - Divs and display of boxes/borders */
+
 nav {
     text-align: center;
     margin-bottom: 50px;
@@ -75,17 +77,13 @@ a:link {
 }
 
 
+/* Forms Styling - input boxes + borders */
 
 form {
     margin: auto;
     line-height: 1.5rem;
 }
 
-
-footer {
-    padding: 15px;
-    text-align: right;
-}
 
 input[type=text] {
     width: 100%;
@@ -116,10 +114,6 @@ label {
     line-height: 40px;
 }
 
-fieldset {
-    border: 1px solid rgb(0, 0, 0);
-}
-
 input[type=submit] {
     background-color: #ceeae7;
     padding: 10px;
@@ -129,6 +123,11 @@ input[type=submit] {
 
 }
 
+fieldset {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* Containers - margin and with/height */
 .container {
     width: 98%;
     margin: auto;
@@ -146,4 +145,9 @@ input[type=submit] {
     background-position: center;
     padding: 130px 0px 130px 0px;
     margin: auto;
+}
+
+footer {
+    padding: 15px;
+    text-align: right;
 }
